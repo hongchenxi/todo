@@ -6,9 +6,8 @@ const reducer = (state = FilterTypes.ALL, action) => {
     case SET_FILTER: {
       return action.filter;
     }
-    default: {
+    default:
       return state;
-    }
   }
 };
 
